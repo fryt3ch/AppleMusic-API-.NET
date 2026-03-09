@@ -1,5 +1,4 @@
-﻿
-using System.Text.Json.Serialization;
+﻿using System.Text.Json.Serialization;
 using frytech.AppleMusic.API.Models.Enums;
 using frytech.AppleMusic.API.Models.Resources;
 
@@ -33,6 +32,7 @@ public abstract class Resource
     /// <summary>
     /// (Required) The type of resource.
     /// </summary>
+    [JsonIgnore]
     public abstract ResourceType Type { get; }
     
     /// <summary>

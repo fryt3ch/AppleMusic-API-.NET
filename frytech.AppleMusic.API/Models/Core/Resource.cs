@@ -33,7 +33,7 @@ public abstract class Resource
     /// (Required) The type of resource.
     /// </summary>
     [JsonIgnore]
-    public abstract ResourceType Type { get; }
+    public abstract ResourceType ResourceType { get; }
     
     /// <summary>
     /// (Required) Persistent identifier of the resource.

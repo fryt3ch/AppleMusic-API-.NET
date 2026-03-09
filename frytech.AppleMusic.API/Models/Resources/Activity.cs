@@ -12,7 +12,7 @@ namespace frytech.AppleMusic.API.Models.Resources;
 /// <inheritdoc />
 public class Activity : Resource, IHasAttributes<ActivityAttributes>, IHasRelationships<ActivityRelationships>
 {
-    public override ResourceType Type => ResourceType.Activities;
+    public override ResourceType ResourceType => ResourceType.Activities;
     
     public ActivityAttributes Attributes { get; set; }
     

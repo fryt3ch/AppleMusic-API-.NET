@@ -11,7 +11,7 @@ namespace frytech.AppleMusic.API.Models.Resources;
 /// <inheritdoc />
 public class Storefront : Resource, IHasAttributes<StorefrontAttributes>
 {
-    public override ResourceType Type => ResourceType.Storefronts;
+    public override ResourceType ResourceType => ResourceType.Storefronts;
     
     public StorefrontAttributes Attributes { get; set; }
 }

@@ -10,7 +10,7 @@ namespace frytech.AppleMusic.API.Models.Resources;
 /// </summary>
 public class Rating : Resource, IHasAttributes<RatingAttributes>
 {
-    public override ResourceType Type => ResourceType.Ratings;
+    public override ResourceType ResourceType => ResourceType.Ratings;
     
     public RatingAttributes Attributes { get; set; }
 }

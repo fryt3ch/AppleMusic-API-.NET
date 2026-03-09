@@ -11,7 +11,7 @@ namespace frytech.AppleMusic.API.Models.Resources;
 /// <inheritdoc />
 public class Genre : Resource, IHasAttributes<GenreAttributes>
 {
-    public override ResourceType Type => ResourceType.Genres;
+    public override ResourceType ResourceType => ResourceType.Genres;
     
     public GenreAttributes Attributes { get; set; }
 }

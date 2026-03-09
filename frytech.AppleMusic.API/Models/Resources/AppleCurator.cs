@@ -12,7 +12,7 @@ namespace frytech.AppleMusic.API.Models.Resources;
 /// <inheritdoc />
 public class AppleCurator : Resource, IHasAttributes<AppleCuratorAttributes>, IHasRelationships<AppleCuratorRelationships>
 {
-    public override ResourceType Type => ResourceType.AppleCurators;
+    public override ResourceType ResourceType => ResourceType.AppleCurators;
     
     public AppleCuratorAttributes Attributes { get; set; }
     

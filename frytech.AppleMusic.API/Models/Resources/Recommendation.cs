@@ -12,7 +12,7 @@ namespace frytech.AppleMusic.API.Models.Resources;
 /// <inheritdoc />
 public class Recommendation : Resource, IHasAttributes<RecommendationAttributes>, IHasRelationships<RecommendationRelationships>
 {
-    public override ResourceType Type => ResourceType.Recommendation;
+    public override ResourceType ResourceType => ResourceType.Recommendation;
     
     public RecommendationAttributes Attributes { get; set; }
     

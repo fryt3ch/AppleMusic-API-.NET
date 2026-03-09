@@ -11,7 +11,7 @@ namespace frytech.AppleMusic.API.Models.Resources;
 /// </summary>
 public class LibrarySong : Resource, IHasAttributes<LibrarySongAttributes>, IHasRelationships<LibrarySongRelationships>
 {
-    public override ResourceType Type => ResourceType.LibrarySongs;
+    public override ResourceType ResourceType => ResourceType.LibrarySongs;
     
     public LibrarySongAttributes Attributes { get; set; }
     

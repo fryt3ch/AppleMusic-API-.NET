@@ -11,7 +11,7 @@ namespace frytech.AppleMusic.API.Models.Resources;
 /// <inheritdoc />
 public class Station : Resource, IHasAttributes<StationAttributes>
 {
-    public override ResourceType Type => ResourceType.Stations;
+    public override ResourceType ResourceType => ResourceType.Stations;
     
     public StationAttributes Attributes { get; set; }
 }
